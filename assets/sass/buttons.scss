@@ -1,0 +1,80 @@
+.btn-stop {
+    color: rgb(209, 6, 6);
+    border: 2px solid rgb(209, 6, 6);
+    border-radius: 20px;
+    padding: 6px 15px;
+    font-weight: normal;
+}
+.btn-stop:hover {
+    text-decoration: none;
+    color: rgb(145, 20, 20);
+    border: 2px solid rgb(145, 20, 20);
+}
+.btn-go {
+    color: white;
+    background-color: rgb(83, 185, 15);
+    border-radius: 3px;
+    padding: 6px 15px;
+    font-weight: normal;
+}
+.btn-go:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(70, 165, 7);
+    box-shadow: 2px 3px 2px rgb(182, 182, 182);
+    font-weight: bold;
+}
+.btn-slow {
+    color: rgb(1, 79, 124);
+    background-color: rgb(253, 250, 43);
+    border: 1px solid rgb(1, 79, 124);
+    padding: 6px 15px;
+    font-weight: normal;
+}
+.btn-slow:hover {
+    padding: 10px 20px;
+    font-size: 2em;
+    text-decoration: none;
+    background-color: 2px solid rgb(253, 250, 43);
+    color: rgb(1, 79, 124);
+    border: 2px solid rgb(1, 79, 124);
+}
+.btn-small {
+    color: rgb(26, 131, 126);
+    border: 2px solid rgb(82, 229, 255);
+    border-radius: 20px;
+    padding: 2px 8px;
+    font-weight: normal;
+    font-size: 12px;
+}
+.btn-small:hover {
+    text-decoration: none;
+    color: rgb(4, 87, 83);
+    border: 2px solid rgb(82, 229, 255);
+}
+.btn-medium {
+    color: rgb(160, 93, 124);
+    background-color: rgb(204, 166, 226);
+    border-radius: 20px;
+    padding: 6px 15px;
+    font-weight: normal;
+}
+.btn-medium:hover {
+    text-decoration: none;
+    color: rgb(221, 154, 185);
+    background-color: rgb(145, 99, 172);
+}
+.btn-large {
+    font-size: 25px;
+    color: rgb(238, 235, 222);
+    background-color: rgb(223, 190, 119);
+    border: 2px solid rgb(224, 137, 56);
+    border-radius: 20px;
+    padding: 10px 21px;
+    font-weight: normal
+}
+.btn-large:hover {
+    color: rgb(255, 234, 118);
+    background-color: rgb(226, 167, 38);
+    border: 2px solid rgb(209, 104, 6);
+}

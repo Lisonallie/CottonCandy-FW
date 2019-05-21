@@ -1,0 +1,19 @@
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    padding: 3px;
+}
+.grid-left {
+    grid-column: 1 / span 6;
+    padding: 3px;
+}
+.grid-right {
+    grid-column: 7 / span 6;
+    padding: 3px;
+    text-align: center;
+}
+.grid-all {
+    grid-column: 1 / 13;
+    padding: 3px;
+}    
