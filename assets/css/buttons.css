@@ -6,7 +6,7 @@
   font-weight: normal;
 }
 
-.btn-stop:hover {
+.btn-stop :hover {
   text-decoration: none;
   color: #911414;
   border: 2px solid #911414;
@@ -20,7 +20,7 @@
   font-weight: normal;
 }
 
-.btn-go:hover {
+.btn-go :hover {
   text-decoration: none;
   color: white;
   background-color: #46a507;
@@ -37,7 +37,7 @@
   font-weight: normal;
 }
 
-.btn-slow:hover {
+.btn-slow :hover {
   padding: 10px 20px;
   font-size: 2em;
   text-decoration: none;
@@ -55,7 +55,7 @@
   font-size: 12px;
 }
 
-.btn-small:hover {
+.btn-small :hover {
   text-decoration: none;
   color: #045753;
   border: 2px solid #52e5ff;
@@ -69,7 +69,7 @@
   font-weight: normal;
 }
 
-.btn-medium:hover {
+.btn-medium :hover {
   text-decoration: none;
   color: #dd9ab9;
   background-color: #9163ac;
@@ -85,7 +85,7 @@
   font-weight: normal;
 }
 
-.btn-large:hover {
+.btn-large :hover {
   color: #ffea76;
   background-color: #e2a726;
   border: 2px solid #d16806;

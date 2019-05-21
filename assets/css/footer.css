@@ -15,7 +15,7 @@ a.left {
   float: left;
 }
 
-a.right {
+a.left .right {
   text-decoration: none;
   color: white;
   float: right;

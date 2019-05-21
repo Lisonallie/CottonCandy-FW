@@ -19,16 +19,16 @@
   color: white;
 }
 
-.nav a:hover {
+.nav a :hover {
   background-color: #25242b;
 }
 
-.nav a:active {
+.nav a :active {
   background-color: #a8a5b9;
   color: #5f5d6b;
 }
 
-a.logo {
+.nav a .logo {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
