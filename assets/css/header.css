@@ -1,24 +1,32 @@
 .head {
-    font-family: 'Artifika', serif;
+  font-family: 'Artifika', serif;
 }
+
 h1 {
-    background-color: rgb(148, 148, 223);
-    color: white;
+  background-color: #9494df;
+  color: white;
 }
+
 h2 {
-    padding: 1px;
-    font-family: 'Artifika', serif;
+  padding: 1px;
+  font-family: 'Artifika', serif;
 }
+
 h3 {
-    color: rgb(86, 141, 86);
+  color: #568d56;
 }
+
 h4 {
-    box-shadow: 5px 5px 5px;
+  -webkit-box-shadow: 5px 5px 5px;
+          box-shadow: 5px 5px 5px;
 }
+
 h5 {
-    font-variant-caps: all-small-caps;
+  font-variant-caps: all-small-caps;
 }
+
 h6 {
-    color: rgb(212, 173, 173);
-    background-color:rgb(145, 137, 123);
+  color: #d4adad;
+  background-color: #91897b;
 }
+/*# sourceMappingURL=header.css.map */

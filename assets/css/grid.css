@@ -1,19 +1,32 @@
 .grid-row {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    padding: 3px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  padding: 3px;
 }
+
 .grid-left {
-    grid-column: 1 / span 6;
-    padding: 3px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / span 6;
+  padding: 3px;
 }
+
 .grid-right {
-    grid-column: 7 / span 6;
-    padding: 3px;
-    text-align: center;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 6;
+  grid-column: 7 / span 6;
+  padding: 3px;
+  text-align: center;
 }
+
 .grid-all {
-    grid-column: 1 / 13;
-    padding: 3px;
-}    
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+  padding: 3px;
+}
+/*# sourceMappingURL=grid.css.map */

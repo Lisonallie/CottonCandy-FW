@@ -1,19 +1,23 @@
 .foot {
-    color: white;
-    background-color: rgb(82, 124, 86);
-    min-height: 10px;
-    overflow: hidden;
+  color: white;
+  background-color: #527c56;
+  min-height: 10px;
+  overflow: hidden;
 }
+
 p.footie {
-    text-align: center;
+  text-align: center;
 }
+
 a.left {
-    text-decoration: none;
-    color: white;
-    float: left;
+  text-decoration: none;
+  color: white;
+  float: left;
 }
+
 a.right {
-    text-decoration: none;
-    color: white;
-    float: right;
+  text-decoration: none;
+  color: white;
+  float: right;
 }
+/*# sourceMappingURL=footer.css.map */
