@@ -1,0 +1,38 @@
+.nav {
+    background-color: rgb(95, 93, 107);
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 2px solid rgb(29, 29, 34);
+    padding: 15px 15px;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.nav a {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    padding: 10px 13px;
+    font-size: 15px;
+    color:white;
+}
+.nav a:hover {
+    background-color: rgb(37, 36, 43);
+}
+.nav a:active {
+    background-color: rgb(168, 165, 185);
+    color: rgb(95, 93, 107);
+}
+a.logo {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 500px) {
+    .nav {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
