@@ -20,6 +20,14 @@
   -ms-grid-column-span: 6;
   grid-column: 7 / span 6;
   padding: 3px;
+  text-align: center;
+}
+
+.grid-all {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+  padding: 3px;
 }
 
 .grid-container {

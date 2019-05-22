@@ -1,19 +1,19 @@
 .btn {
   &-default {
     color: rgb(253, 253, 253);
-    background-color: #84CEEB;
+    background-color: rgb(119, 212, 235);
     border-radius: 5px;
-    padding: 6px 20px;
+    padding: 6px 15px;
     font-weight: normal;
     font-variant: small-caps;
-    letter-spacing: 1.5px;
-    font-size: 20px;
+    letter-spacing: 7px;
+    font-size: 19px;
+    text-align: center;
     &:hover {
       text-decoration: none;
       color: rgb(253, 253, 253);
-      background-color: rgb(87, 221, 255);
+      background-color: rgb(119, 212, 235);
       box-shadow: -1px 1px 3px 2px #8860D0;
-      font-weight: bold;
     }
   }
   &-small {
