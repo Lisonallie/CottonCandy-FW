@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,WAAW,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB;EACzC,aAAa,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB;EAC3C,OAAO,EAAE,IAAI;CAChB;;AACD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,UAAU,CAAC;IACT,OAAO,EAAE,KAAK;IACd,UAAU,EAAE,KAAK;IACjB,SAAS,EAAE,KAAK;GACjB",
+    "sources": [
+        "../sass/blockquote.scss"
+    ],
+    "names": [],
+    "file": "blockquote.css"
+}

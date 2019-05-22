@@ -1,6 +1,6 @@
 .btn-default {
-  color: #C1C8C4;
-  background-color: #57ddff;
+  color: #fdfdfd;
+  background-color: #84CEEB;
   border-radius: 5px;
   padding: 6px 20px;
   font-weight: normal;
@@ -11,7 +11,7 @@
 
 .btn-default:hover {
   text-decoration: none;
-  color: #C1C8C4;
+  color: #fdfdfd;
   background-color: #57ddff;
   -webkit-box-shadow: -1px 1px 3px 2px #8860D0;
           box-shadow: -1px 1px 3px 2px #8860D0;
@@ -163,8 +163,8 @@ a.cancel:hover {
   color: white;
   background-color: #5680E9;
   min-height: 10px;
-  overflow: hidden;
-  min-width: 100vw;
+  max-width: 100vw;
+  margin: 0;
 }
 
 p.footie {
@@ -174,13 +174,13 @@ p.footie {
 a.left {
   text-decoration: none;
   color: white;
-  float: left;
+  text-align: left;
 }
 
 a.left.right {
   text-decoration: none;
   color: white;
-  float: right;
+  text-align: right;
 }
 
 .grid-row {
@@ -265,5 +265,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100vw;
 }
 /*# sourceMappingURL=style.css.map */

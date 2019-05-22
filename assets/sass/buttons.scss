@@ -1,7 +1,7 @@
 .btn {
   &-default {
-    color: #C1C8C4;
-    background-color: rgb(87, 221, 255);
+    color: rgb(253, 253, 253);
+    background-color: #84CEEB;
     border-radius: 5px;
     padding: 6px 20px;
     font-weight: normal;
@@ -10,7 +10,7 @@
     font-size: 20px;
     &:hover {
       text-decoration: none;
-      color: #C1C8C4;
+      color: rgb(253, 253, 253);
       background-color: rgb(87, 221, 255);
       box-shadow: -1px 1px 3px 2px #8860D0;
       font-weight: bold;
