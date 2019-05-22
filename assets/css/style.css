@@ -161,26 +161,12 @@ a.cancel:hover {
 
 .foot {
   color: white;
-  background-color: #5680E9;
-  min-height: 10px;
-  max-width: 100vw;
-  margin: 0;
+  background-color: #5680e9;
+  padding: 10px;
 }
 
-p.footie {
+p {
   text-align: center;
-}
-
-a.left {
-  text-decoration: none;
-  color: white;
-  text-align: left;
-}
-
-a.left.right {
-  text-decoration: none;
-  color: white;
-  text-align: right;
 }
 
 .grid-row {
@@ -204,14 +190,6 @@ a.left.right {
   -ms-grid-column: 7;
   -ms-grid-column-span: 6;
   grid-column: 7 / span 6;
-  padding: 3px;
-  text-align: center;
-}
-
-.grid-all {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 12;
-  grid-column: 1 / 13;
   padding: 3px;
 }
 
@@ -252,7 +230,6 @@ code {
 
 html {
   scroll-behavior: smooth;
-  margin: 0;
 }
 
 body {
@@ -265,6 +242,5 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100vw;
 }
 /*# sourceMappingURL=style.css.map */
