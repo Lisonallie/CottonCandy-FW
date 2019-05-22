@@ -1,5 +1,5 @@
 @import url("buttons.css");
-@import url("https://fonts.googleapis.com/css?family=Artifika|Oxygen");
+@import url("https://fonts.googleapis.com/css?family=Alice|Nunito&display=swap");
 @import url("card.css");
 @import url("nav.css");
 @import url("form.css");
@@ -16,7 +16,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
 }
