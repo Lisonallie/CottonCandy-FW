@@ -6,7 +6,7 @@
   font-weight: normal;
 }
 
-.btn-stop :hover {
+.btn-stop:hover {
   text-decoration: none;
   color: #911414;
   border: 2px solid #911414;
@@ -20,7 +20,7 @@
   font-weight: normal;
 }
 
-.btn-go :hover {
+.btn-go:hover {
   text-decoration: none;
   color: white;
   background-color: #46a507;
@@ -37,7 +37,7 @@
   font-weight: normal;
 }
 
-.btn-slow :hover {
+.btn-slow:hover {
   padding: 10px 20px;
   font-size: 2em;
   text-decoration: none;
@@ -55,7 +55,7 @@
   font-size: 12px;
 }
 
-.btn-small :hover {
+.btn-small:hover {
   text-decoration: none;
   color: #045753;
   border: 2px solid #52e5ff;
@@ -67,7 +67,7 @@
   font-weight: normal;
 }
 
-.btn-medium :hover {
+.btn-medium:hover {
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@
   font-weight: normal;
 }
 
-.btn-large :hover {
+.btn-large:hover {
   padding: 2%;
 }
 
@@ -120,16 +120,16 @@
   color: white;
 }
 
-.nav a :hover {
+.nav a:hover {
   background-color: #25242b;
 }
 
-.nav a :active {
+.nav a:active {
   background-color: #a8a5b9;
   color: #5f5d6b;
 }
 
-.nav a .logo {
+.nav a.logo {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -154,16 +154,16 @@ input {
   outline: none;
 }
 
-input :focus {
+input:focus {
   border: 4px dashed #94787d;
 }
 
-input .pwd {
+input.pwd {
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-a.submit, .cancel {
+a.submit {
   text-decoration: none;
   border-radius: 10px;
   color: white;
@@ -177,6 +177,15 @@ a.submit:hover {
   background-color: #596f83;
   color: white;
   cursor: pointer;
+}
+
+a.cancel {
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #93aec7;
+  font-size: 14px;
+  padding: 5px 10px;
 }
 
 a.cancel:hover {
@@ -213,7 +222,7 @@ a.left .right {
 .grid-row {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr 12);
+  -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
