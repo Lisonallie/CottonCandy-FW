@@ -101,10 +101,10 @@
 }
 
 .nav {
-  background-color: #5680E9;
+  background-color: #5AB9EA;
   overflow: hidden;
   text-align: center;
-  border-bottom: 2px solid #1d1d22;
+  border-bottom: 2px solid #8860D0;
   padding: 15px 15px;
   margin: 0;
   position: fixed;
@@ -197,7 +197,7 @@ a.cancel:hover {
 
 .foot {
   color: white;
-  background-color: #527c56;
+  background-color: #5680E9;
   min-height: 10px;
   overflow: hidden;
   min-width: 100vw;
@@ -213,7 +213,7 @@ a.left {
   float: left;
 }
 
-a.left .right {
+a.left.right {
   text-decoration: none;
   color: white;
   float: right;
@@ -252,6 +252,7 @@ a.left .right {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #fdfdfd;
   font-family: 'Alice', serif;
   font-weight: lighter;
   letter-spacing: 1.2px;
@@ -286,19 +287,19 @@ html {
 }
 
 body {
+  color: #C1C8C4;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   margin: 0;
   padding: 0;
-  background-image: url(../img/fwbackground.jpg);
+  background-image: url(../img/darkstarbg.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .content {
-  margin-top: 40px;
-  overflow: auto;
   padding: 10px;
+  overflow: auto;
 }
 /*# sourceMappingURL=style.css.map */

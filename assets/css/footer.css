@@ -1,0 +1,24 @@
+.foot {
+  color: white;
+  background-color: #5680E9;
+  min-height: 10px;
+  overflow: hidden;
+  min-width: 100vw;
+}
+
+p.footie {
+  text-align: center;
+}
+
+a.left {
+  text-decoration: none;
+  color: white;
+  float: left;
+}
+
+a.left.right {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+/*# sourceMappingURL=footer.css.map */
