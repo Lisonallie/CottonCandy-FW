@@ -1,54 +1,24 @@
-.btn-stop {
-  color: #d10606;
-  border: 2px solid #d10606;
-  border-radius: 20px;
-  padding: 6px 15px;
+.btn-default {
+  color: #C1C8C4;
+  background-color: #57ddff;
+  border-radius: 5px;
+  padding: 6px 20px;
   font-weight: normal;
+  font-variant: small-caps;
+  letter-spacing: 1.5px;
+  font-size: 20px;
 }
 
-.btn-stop:hover {
+.btn-default:hover {
   text-decoration: none;
-  color: #911414;
-  border: 2px solid #911414;
-}
-
-.btn-go {
-  color: white;
-  background-color: #53b90f;
-  border-radius: 3px;
-  padding: 6px 15px;
-  font-weight: normal;
-}
-
-.btn-go:hover {
-  text-decoration: none;
-  color: white;
-  background-color: #46a507;
-  -webkit-box-shadow: 2px 3px 2px #b6b6b6;
-          box-shadow: 2px 3px 2px #b6b6b6;
+  color: #C1C8C4;
+  background-color: #57ddff;
+  -webkit-box-shadow: -1px 1px 3px 2px #8860D0;
+          box-shadow: -1px 1px 3px 2px #8860D0;
   font-weight: bold;
 }
 
-.btn-slow {
-  color: #014f7c;
-  background-color: #fdfa2b;
-  border: 1px solid #014f7c;
-  padding: 6px 15px;
-  font-weight: normal;
-}
-
-.btn-slow:hover {
-  padding: 10px 20px;
-  font-size: 2em;
-  text-decoration: none;
-  background-color: 2px solid #fdfa2b;
-  color: #014f7c;
-  border: 2px solid #014f7c;
-}
-
 .btn-small {
-  color: #1a837e;
-  border: 2px solid #52e5ff;
   border-radius: 20px;
   padding: 2px 8px;
   font-weight: normal;
@@ -57,8 +27,6 @@
 
 .btn-small:hover {
   text-decoration: none;
-  color: #045753;
-  border: 2px solid #52e5ff;
 }
 
 .btn-medium {

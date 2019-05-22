@@ -9,7 +9,7 @@
 @import 'codetext.scss';
 
 * {
-    text-decoration: none;
+    text-decoration: none; 
 }
 html {
     scroll-behavior: smooth;
@@ -18,15 +18,11 @@ html {
 body {
     color: #C1C8C4;
     font-family: 'Nunito', sans-serif;
-    font-weight: lighter;
+    font-weight: initial;
     margin: 0;
     padding: 0;
     background-image: url(../img/darkstarbg.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.content {
-    padding: 10px;
-    overflow: auto;
 }

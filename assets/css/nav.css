@@ -19,12 +19,8 @@
 }
 
 .nav a:hover {
-  background-color: #25242b;
-}
-
-.nav a:active {
-  background-color: #a8a5b9;
-  color: #5f5d6b;
+  background-color: #8860D0;
+  padding: 15px 13px;
 }
 
 .nav a.logo {
