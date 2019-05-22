@@ -6,12 +6,12 @@
 input {
     border: 2px solid rgb(148, 120, 125);
     outline: none;
-    :focus {
-        border: 4px dashed rgb(148, 120, 125);
-    }
     .pwd {
         margin-top: 15px;
         margin-bottom: 10px;
+    }
+    :focus {
+        border: 4px dashed rgb(148, 120, 125);
     }
 }
 a.submit, .cancel {

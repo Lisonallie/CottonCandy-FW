@@ -1,5 +1,4 @@
 @import 'buttons.scss';
-@import 'https://fonts.googleapis.com/css?family=Alice|Nunito&display=swap';
 @import 'card.scss';
 @import 'nav.scss';
 @import 'form.scss';
@@ -14,11 +13,17 @@
 }
 html {
     scroll-behavior: smooth;
+    margin: 0;
 }
 body {
     font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
     margin: 0;
     padding: 0;
+    background-image: url(../img/fwbackground.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content {
     margin-top: 40px;

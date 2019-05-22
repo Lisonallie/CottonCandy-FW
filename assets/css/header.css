@@ -1,32 +1,6 @@
-.head {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Alice', serif;
-}
-
-h1 {
-  background-color: #9494df;
-  color: white;
-}
-
-h2 {
-  padding: 1px;
-  font-family: 'Alice', serif;
-}
-
-h3 {
-  color: #568d56;
-}
-
-h4 {
-  -webkit-box-shadow: 5px 5px 5px;
-          box-shadow: 5px 5px 5px;
-}
-
-h5 {
-  font-variant-caps: all-small-caps;
-}
-
-h6 {
-  color: #d4adad;
-  background-color: #91897b;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
 }
 /*# sourceMappingURL=header.css.map */

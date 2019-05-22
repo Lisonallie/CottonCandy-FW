@@ -62,8 +62,6 @@
 }
 
 .btn-medium {
-  color: #a05d7c;
-  background-color: #cca6e2;
   border-radius: 20px;
   padding: 6px 15px;
   font-weight: normal;
@@ -71,23 +69,16 @@
 
 .btn-medium :hover {
   text-decoration: none;
-  color: #dd9ab9;
-  background-color: #9163ac;
 }
 
 .btn-large {
   font-size: 25px;
-  color: #eeebde;
-  background-color: #dfbe77;
-  border: 2px solid #e08938;
   border-radius: 20px;
   padding: 10px 21px;
   font-weight: normal;
 }
 
 .btn-large :hover {
-  color: #ffea76;
-  background-color: #e2a726;
-  border: 2px solid #d16806;
+  padding: 2%;
 }
 /*# sourceMappingURL=buttons.css.map */
