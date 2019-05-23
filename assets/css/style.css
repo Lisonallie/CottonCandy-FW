@@ -154,60 +154,73 @@ input.name {
 
 .foot {
   color: white;
-  background-color: #5680e9;
-  padding: 20px;
-}
-
-.foot p {
+  background: #5682e9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5682e9), to(#1d0a31));
+  background: linear-gradient(to bottom, #5682e9, #1d0a31);
   text-align: center;
+  padding: 1px;
 }
 
-.foot p.planets img {
-  text-align: center;
-}
-
-.foot p.planets img.sun {
-  height: 35px;
+.foot .sun {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 160px;
   width: auto;
 }
 
-.foot p.planets img.mercury {
-  height: 15px;
+.foot .mercury {
+  margin-top: -15px;
+  margin-bottom: -10px;
+  height: 60px;
   width: auto;
 }
 
-.foot p.planets img.venus {
-  height: 20px;
+.foot .venus {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 80px;
   width: auto;
 }
 
-.foot p.planets img.earth {
-  height: 22px;
+.foot .earth {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 100px;
   width: auto;
 }
 
-.foot p.planets img.mars {
-  height: 25px;
+.foot .mars {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 100px;
   width: auto;
 }
 
-.foot p.planets img.jupiter {
-  height: 33px;
+.foot .jupiter {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 140px;
   width: auto;
 }
 
-.foot p.planets img.saturn {
-  height: 20px;
+.foot .saturn {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 150px;
   width: auto;
 }
 
-.foot p.planets img.uranus {
-  height: 20px;
+.foot .uranus {
+  margin-top: -15px;
+  margin-bottom: -10px;
+  height: 120px;
   width: auto;
 }
 
-.foot p.planets img.neptune {
-  height: 25px;
+.foot .neptune {
+  margin-top: -15px;
+  margin-bottom: -15px;
+  height: 115px;
   width: auto;
 }
 

@@ -1,49 +1,63 @@
 .foot {
   color: white;
-  background-color: #5680e9;
-  padding: 20px;
-  p {
-    text-align: center;
-    &.planets {
-      img {
-        text-align: center;
-        &.sun{
-          height: 35px;
-          width: auto;
-        }
-        &.mercury{
-          height: 15px;
-          width: auto;
-        }
-        &.venus{
-          height: 20px;
-          width: auto;
-        }
-        &.earth{
-          height: 22px;
-          width: auto;
-        }
-        &.mars{
-          height: 25px;
-          width: auto;
-        }
-        &.jupiter{
-          height: 33px;
-          width: auto;
-        }
-        &.saturn{
-          height: 20px;
-          width: auto;
-        }
-        &.uranus{
-          height: 20px;
-          width: auto;
-        }
-        &.neptune{
-          height: 25px;
-          width: auto;
-        }
-      }
-    }
+  background: #5682e9;
+  background: -webkit-linear-gradient(top, #5682e9, #1d0a31);
+  background: -moz-linear-gradient(top, #5682e9, #1d0a31);
+  background: linear-gradient(to bottom, #5682e9, #1d0a31);
+  text-align: center;
+  padding: 1px;
+  .sun {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 160px;
+    width: auto;
+  }
+  .mercury {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    height: 60px;
+    width: auto;
+  }
+  .venus {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 80px;
+    width: auto;
+  }
+  .earth {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 100px;
+    width: auto;
+  }
+  .mars {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 100px;
+    width: auto;
+  }
+  .jupiter {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 140px;
+    width: auto;
+  }
+  .saturn {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 150px;
+    width: auto;
+  }
+  .uranus {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    height: 120px;
+    width: auto;
+  }
+  .neptune {
+    margin-top: -15px;
+    margin-bottom: -15px;
+    height: 115px;
+    width: auto;
   }
 }
