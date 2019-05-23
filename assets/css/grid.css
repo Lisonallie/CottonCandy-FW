@@ -28,6 +28,7 @@
   -ms-grid-column-span: 12;
   grid-column: 1 / 13;
   padding: 3px;
+  text-align: center;
 }
 
 .grid-container {

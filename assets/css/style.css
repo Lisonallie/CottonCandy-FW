@@ -136,8 +136,16 @@
 
 .outside {
   border: 3px solid #6b3fbe;
-  padding: 10px 10px;
+  padding: 30px 80px;
   display: inline-block;
+}
+
+.client {
+  text-align: left;
+}
+
+.comment {
+  text-align: left;
 }
 
 input {
@@ -152,13 +160,13 @@ input:focus {
 input.pwd {
   margin-top: 15px;
   margin-bottom: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 input.name {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .foot {
@@ -263,6 +271,7 @@ input.name {
   -ms-grid-column-span: 12;
   grid-column: 1 / 13;
   padding: 3px;
+  text-align: center;
 }
 
 .grid-container {
@@ -274,11 +283,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fdfdfd;
   font-family: 'Alice', serif;
   font-weight: lighter;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.4px;
 }
 
 blockquote {
-  border-left: 2px solid #6b3fbe;
+  border-right: 3px solid #6b3fbe;
   border-bottom: 2px solid #6b3fbe;
   padding: 10px;
 }
@@ -317,12 +326,8 @@ body {
   background-size: cover;
 }
 
-.tc {
-  text-align: center;
-}
-
 .tagline {
   margin-top: -18px;
-  margin-bottom: -8px;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */
