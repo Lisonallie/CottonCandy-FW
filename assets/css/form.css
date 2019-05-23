@@ -17,36 +17,4 @@ input.pwd {
   margin-top: 15px;
   margin-bottom: 10px;
 }
-
-a.submit {
-  text-decoration: none;
-  border-radius: 10px;
-  color: white;
-  background-color: #93aec7;
-  font-size: 14px;
-  padding: 5px 10px;
-}
-
-a.submit:hover {
-  text-decoration: none;
-  background-color: #596f83;
-  color: white;
-  cursor: pointer;
-}
-
-a.cancel {
-  text-decoration: none;
-  border-radius: 10px;
-  color: white;
-  background-color: #93aec7;
-  font-size: 14px;
-  padding: 5px 10px;
-}
-
-a.cancel:hover {
-  color: white;
-  text-decoration: none;
-  background-color: #9b6c74;
-  cursor: pointer;
-}
 /*# sourceMappingURL=form.css.map */

@@ -16,4 +16,13 @@
 .card-description {
   font-size: 14px;
 }
+
+.card a.btn-default {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
 /*# sourceMappingURL=card.css.map */

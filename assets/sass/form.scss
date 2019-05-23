@@ -14,33 +14,3 @@ input {
     margin-bottom: 10px;
   }
 }
-a {
-  &.submit {
-    text-decoration: none;
-    border-radius: 10px;
-    color: white;
-    background-color: rgb(147, 174, 199);
-    font-size: 14px;
-    padding: 5px 10px;
-    &:hover {
-      text-decoration: none;
-      background-color: rgb(89, 111, 131);
-      color: white;
-      cursor: pointer;
-    }
-  }
-  &.cancel {
-    text-decoration: none;
-    border-radius: 10px;
-    color: white;
-    background-color: rgb(147, 174, 199);
-    font-size: 14px;
-    padding: 5px 10px;
-    &:hover {
-      color: white;
-      text-decoration: none;
-      background-color: rgb(155, 108, 116);
-      cursor: pointer;
-    }
-  }
-}

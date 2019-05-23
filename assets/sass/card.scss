@@ -13,4 +13,10 @@
     &-description {
         font-size: 14px;
     }
+    a {
+        &.btn-default {
+            display: inline-flex;
+            align-items: flex-end;
+        }
+    }
 }

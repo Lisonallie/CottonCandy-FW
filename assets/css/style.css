@@ -3,6 +3,7 @@
   background-color: #77d4eb;
   border-radius: 5px;
   padding: 6px 15px;
+  padding-left: 20px;
   font-weight: bold;
   font-variant: small-caps;
   letter-spacing: 7px;
@@ -19,7 +20,6 @@
 }
 
 .btn-small {
-  border-radius: 20px;
   padding: 2px 8px;
   font-weight: normal;
   font-size: 12px;
@@ -30,8 +30,8 @@
 }
 
 .btn-medium {
-  border-radius: 20px;
-  padding: 6px 15px;
+  padding: 4px 12px;
+  padding-right: 10px;
   font-weight: normal;
 }
 
@@ -41,7 +41,6 @@
 
 .btn-large {
   font-size: 25px;
-  border-radius: 20px;
   padding: 10px 21px;
   font-weight: normal;
 }
@@ -67,6 +66,15 @@
 
 .card-description {
   font-size: 14px;
+}
+
+.card a.btn-default {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .nav {
@@ -136,38 +144,6 @@ input:focus {
 input.pwd {
   margin-top: 15px;
   margin-bottom: 10px;
-}
-
-a.submit {
-  text-decoration: none;
-  border-radius: 10px;
-  color: white;
-  background-color: #93aec7;
-  font-size: 14px;
-  padding: 5px 10px;
-}
-
-a.submit:hover {
-  text-decoration: none;
-  background-color: #596f83;
-  color: white;
-  cursor: pointer;
-}
-
-a.cancel {
-  text-decoration: none;
-  border-radius: 10px;
-  color: white;
-  background-color: #93aec7;
-  font-size: 14px;
-  padding: 5px 10px;
-}
-
-a.cancel:hover {
-  color: white;
-  text-decoration: none;
-  background-color: #9b6c74;
-  cursor: pointer;
 }
 
 .foot {
@@ -255,6 +231,7 @@ body {
   color: #C1C8C4;
   font-family: 'Nunito', sans-serif;
   font-weight: initial;
+  letter-spacing: 1px;
   margin: 0;
   padding: 0;
   background-image: url(../img/darkstarbg.png);
