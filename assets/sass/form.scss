@@ -1,16 +1,22 @@
 .outside {
-  border: 3px solid rgb(194, 147, 155);
+  border: 3px solid rgb(107, 63, 190);
   padding: 10px 10px;
   display: inline-block;
 }
 input {
-  border: 2px solid rgb(148, 120, 125);
+  border: 2px solid rgb(107, 63, 190);
   outline: none;
   &:focus {
-    border: 4px dashed rgb(148, 120, 125);
+    border: 4px dashed rgb(107, 63, 190);
   }
   &.pwd {
     margin-top: 15px;
     margin-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  &.name {
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }

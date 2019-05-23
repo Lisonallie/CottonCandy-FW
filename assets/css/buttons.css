@@ -13,10 +13,8 @@
 
 .btn-default:hover {
   text-decoration: none;
-  color: #fdfdfd;
-  background-color: #77d4eb;
-  -webkit-box-shadow: -1px 1px 3px 2px #8860D0;
-          box-shadow: -1px 1px 3px 2px #8860D0;
+  -webkit-box-shadow: -1px 1px 3px 2px #6b3fbe;
+          box-shadow: -1px 1px 3px 2px #6b3fbe;
 }
 
 .btn-small {
@@ -37,6 +35,7 @@
 
 .btn-medium:hover {
   text-decoration: none;
+  color: #6b3fbe;
 }
 
 .btn-large {
