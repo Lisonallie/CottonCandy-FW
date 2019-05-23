@@ -1,10 +1,59 @@
 .foot {
   color: white;
   background-color: #5680e9;
-  padding: 10px;
+  padding: 20px;
 }
 
-p {
+.foot p {
   text-align: center;
+}
+
+.foot p.planets img {
+  text-align: center;
+}
+
+.foot p.planets img.sun {
+  height: 35px;
+  width: auto;
+}
+
+.foot p.planets img.mercury {
+  height: 15px;
+  width: auto;
+}
+
+.foot p.planets img.venus {
+  height: 20px;
+  width: auto;
+}
+
+.foot p.planets img.earth {
+  height: 22px;
+  width: auto;
+}
+
+.foot p.planets img.mars {
+  height: 25px;
+  width: auto;
+}
+
+.foot p.planets img.jupiter {
+  height: 33px;
+  width: auto;
+}
+
+.foot p.planets img.saturn {
+  height: 20px;
+  width: auto;
+}
+
+.foot p.planets img.uranus {
+  height: 20px;
+  width: auto;
+}
+
+.foot p.planets img.neptune {
+  height: 25px;
+  width: auto;
 }
 /*# sourceMappingURL=footer.css.map */
