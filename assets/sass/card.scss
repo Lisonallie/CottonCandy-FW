@@ -35,6 +35,16 @@
         border-radius: 10px;
         padding: 5px 30px;
       }
+      &.hematite {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
+      &.gases {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
     }
   }
   a {
@@ -57,10 +67,10 @@
     background-image: url(../img/quartz.jpg);
 }
 .marsstone {
-
+    background-image: url(../img/hematite.jpg);
 }
 .jupiterstone {
-
+    background-image: url(../img/gases.jpg);
 }
 .saturnstone {
 

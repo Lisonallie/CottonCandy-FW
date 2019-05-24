@@ -93,6 +93,18 @@
   padding: 5px 30px;
 }
 
+.card-description p.hematite {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.gases {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
 .card a.btn-default {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -116,6 +128,14 @@
 
 .earthstone {
   background-image: url(../img/quartz.jpg);
+}
+
+.marsstone {
+  background-image: url(../img/hematite.jpg);
+}
+
+.jupiterstone {
+  background-image: url(../img/gases.jpg);
 }
 
 .nav {
