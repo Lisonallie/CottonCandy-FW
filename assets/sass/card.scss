@@ -1,30 +1,73 @@
 .card {
-    height: 250px;
-    width: auto;
-    color:rgb(253, 253, 253);
-    background-size: cover;
-    border: 1px solid rgb(218, 218, 218);
-    text-align: center;
-    border-radius: 10px;
+  height: 250px;
+  width: auto;
+  color: rgb(253, 253, 253);
+  background-size: cover;
+  border: 1px solid rgb(218, 218, 218);
+  text-align: center;
+  border-radius: 10px;
+  &-category {
+    font-size: 18px;
+  }
+  &-description {
+    font-size: 14px;
+    margin: 25px;
+    margin-bottom: 14px;
+    margin-top: -10px;
+    p {
+      &.amethyst {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
+      &.iron {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
+      &.basalt {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
+      &.quartz {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
+    }
+  }
+  a {
+    &.btn-default {
+      display: inline-flex;
+      align-items: flex-end;
+    }
+  }
+}
+.defaultstone {
     background-image: url(../img/amethyst.jpg);
-    &-category {
-        font-size: 18px;
-    }
-    &-description {
-        font-size: 14px;
-        margin: 25px;
-        margin-bottom: 14px;
-        margin-top: -10px;
-        p {
-            background-color: rgba(30, 11, 50, 0.4);
-            border-radius: 10px;
-            padding: 5px 30px;
-        }
-    }
-    a {
-        &.btn-default {
-            display: inline-flex;
-            align-items: flex-end;
-        }
-    }
+}
+.mercurystone {
+    background-image: url(../img/iron.png);
+}
+.venusstone {
+    background-image: url(../img/basalt.jpg);
+}
+.earthstone {
+    background-image: url(../img/quartz.jpg);
+}
+.marsstone {
+
+}
+.jupiterstone {
+
+}
+.saturnstone {
+
+}
+.uranusstone {
+
+}
+.neptunestone {
+
 }

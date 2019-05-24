@@ -6,7 +6,6 @@
   border: 1px solid #dadada;
   text-align: center;
   border-radius: 10px;
-  background-image: url(../img/amethyst.jpg);
 }
 
 .card-category {
@@ -20,7 +19,25 @@
   margin-top: -10px;
 }
 
-.card-description p {
+.card-description p.amethyst {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.iron {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.basalt {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.quartz {
   background-color: rgba(30, 11, 50, 0.4);
   border-radius: 10px;
   padding: 5px 30px;
@@ -33,5 +50,21 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.defaultstone {
+  background-image: url(../img/amethyst.jpg);
+}
+
+.mercurystone {
+  background-image: url(../img/iron.png);
+}
+
+.venusstone {
+  background-image: url(../img/basalt.jpg);
+}
+
+.earthstone {
+  background-image: url(../img/quartz.jpg);
 }
 /*# sourceMappingURL=card.css.map */
