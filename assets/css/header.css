@@ -1,7 +1,22 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fdfdfd;
-  font-family: 'Alice', serif;
+  font-family: "Alice", serif;
   font-weight: lighter;
   letter-spacing: 1.4px;
+  margin-top: 5px;
+}
+
+h1.welcome,
+h2.welcome,
+h3.welcome,
+h4.welcome,
+h5.welcome,
+h6.welcome {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=header.css.map */

@@ -105,6 +105,24 @@
   padding: 5px 30px;
 }
 
+.card-description p.hydrogen {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.methane {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.ammonia {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
 .card a.btn-default {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -136,6 +154,18 @@
 
 .jupiterstone {
   background-image: url(../img/gases.jpg);
+}
+
+.saturnstone {
+  background-image: url(../img/hydrogen.jpg);
+}
+
+.uranusstone {
+  background-image: url(../img/methaneice.jpg);
+}
+
+.neptunestone {
+  background-image: url(../img/ammonia.jpg);
 }
 
 .nav {
@@ -199,6 +229,7 @@
 
 .comment {
   text-align: left;
+  margin-top: 2px;
 }
 
 input {
@@ -211,8 +242,8 @@ input:focus {
 }
 
 input.pwd {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 25px;
   padding-left: 75px;
   padding-right: 75px;
 }
@@ -332,11 +363,26 @@ input.name {
   padding-top: 40px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fdfdfd;
-  font-family: 'Alice', serif;
+  font-family: "Alice", serif;
   font-weight: lighter;
   letter-spacing: 1.4px;
+  margin-top: 5px;
+}
+
+h1.welcome,
+h2.welcome,
+h3.welcome,
+h4.welcome,
+h5.welcome,
+h6.welcome {
+  margin-top: 20px;
 }
 
 blockquote {

@@ -45,6 +45,21 @@
         border-radius: 10px;
         padding: 5px 30px;
       }
+      &.hydrogen {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
+      &.methane {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
+      &.ammonia {
+        background-color: rgba(30, 11, 50, 0.4);
+        border-radius: 10px;
+        padding: 5px 30px;
+      }
     }
   }
   a {
@@ -73,11 +88,11 @@
     background-image: url(../img/gases.jpg);
 }
 .saturnstone {
-
+    background-image: url(../img/hydrogen.jpg);
 }
 .uranusstone {
-
+    background-image: url(../img/methaneice.jpg);
 }
 .neptunestone {
-
+    background-image: url(../img/ammonia.jpg);
 }

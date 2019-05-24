@@ -55,6 +55,24 @@
   padding: 5px 30px;
 }
 
+.card-description p.hydrogen {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.methane {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.card-description p.ammonia {
+  background-color: rgba(30, 11, 50, 0.4);
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
 .card a.btn-default {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -86,5 +104,17 @@
 
 .jupiterstone {
   background-image: url(../img/gases.jpg);
+}
+
+.saturnstone {
+  background-image: url(../img/hydrogen.jpg);
+}
+
+.uranusstone {
+  background-image: url(../img/methaneice.jpg);
+}
+
+.neptunestone {
+  background-image: url(../img/ammonia.jpg);
 }
 /*# sourceMappingURL=card.css.map */
